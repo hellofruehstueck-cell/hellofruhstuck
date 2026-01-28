@@ -372,12 +372,28 @@ section:first-of-type {
   margin-top: 0.1rem;
 }
 
+/* ===================================================== */
+/*  FAQ + KONTAKT nebeneinander                           */
+/* ===================================================== */
+.contact-layout {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+  margin: 1.5rem 0 2rem;
+}
 
-/* ===================================================== */
-/*  FAQ                                                 */
-/* ===================================================== */
+.contact-layout section {
+  flex: 1;
+}
+
+
+.contact-layout h2 {
+  font-size: 1.8rem;
+  color: var(--orange-dark);
+}
+
 .faq-item+.faq-item {
-  margin-top: 0.75rem;
+  margin-top: 1.1rem;
 }
 
 .faq-q {
@@ -492,20 +508,6 @@ footer a {
   text-decoration: none;
 }
 
-
-/* ===================================================== */
-/*  FAQ + KONTAKT nebeneinander                           */
-/* ===================================================== */
-.contact-layout {
-  display: flex;
-  gap: 1.5rem;
-  align-items: flex-start;
-  margin-top: 1.5rem;
-}
-
-.contact-layout section {
-  flex: 1;
-}
 
 
 /* ===================================================== */
@@ -860,13 +862,14 @@ footer a {
 .hover-info {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   gap: 1rem;
   background: #FEF8F0;
   padding: 1rem;
   text-align: left;
   border-radius: 1rem;
   margin: 1.5rem auto;
-  max-width: 420px;
+  width: 450px;
   opacity: 0;
   transition: 0.3s;
   flex-direction: row;
@@ -876,10 +879,11 @@ footer a {
   opacity: 1;
   transform: translateY(0);
 }
+
 .hover-bg {
   display: flex;
   background: #FEF8F0;
-
+  width: 100%;
 }
 
 .hover-info img {
@@ -889,7 +893,7 @@ footer a {
   border-radius: 1rem;
   object-fit: cover;
   box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
-
+  align-self: center;
 }
 
 .hover-close {
@@ -900,7 +904,9 @@ footer a {
   font-size: 1.2rem;
   color: #333;
   z-index: 10;
+  
 }
+
 
 .actions {
   display: flex;
@@ -1353,7 +1359,7 @@ button {
     border-radius: 1rem;
     width: 100%;
     height: 100%;
-    padding: 1rem 2rem;
+    padding: 1rem 1rem;
     background:var(--orange-bg);
     box-shadow: 0 10px 22px rgba(0, 0, 0, 0.08);
     border: 1px solid var(--card-border);
