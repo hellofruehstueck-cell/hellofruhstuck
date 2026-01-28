@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Hello Frühstück – Frühstücksboxen für Kinder</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description"
+    content="Hello Frühstück – bunte, gesunde Frühstücksboxen für Kinder. Klein, bunt und voller Power." />
+
+  <!--logo-->
+  <link rel="shortcut icon" href="img/HelloF_Logo_V3.png" type="image/x-icon">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="page">
+    <!-- HEADER -->
+    <header>
+      <div class="brand">
+        <a href="index.html"><img src="img/HelloF_Logo_V3.png" alt="Hello Frühstück Logo" class="logo" /></a>
+        <div class="header-title">
+          <h1>
+            <span class="header-title-hello">Hello</span>
+            <span class="header-title-fruehstueck"> Frühstück</span>
+          </h1>
+          <p class="slogan">Superkräfte zum Mitnehmen</p>
+        </div>
+      </div>
+
+      <!-- BURGER -->
+      <button class="burger-btn"><img src="/img/burger_menu.png" alt="burger menu"></button>
+
+      <nav class="main-nav" id="nav">
+        <a href="#ueber-uns">Über uns</a>
+        <a href="#produkte">Angebot</a>
+        <a href="#deine-box">Deine Box</a>
+        <a href="#konzept">So funktioniert's</a>
+        <a href="#faq">FAQ</a>
+        <a href="#kontakt">Kontakt</a>
+      </nav>
+    </header>
+
+    <div class="hero-content">
+      <div class="hero-video-wrapper">
+        <video class="hero-video" autoplay muted loop>
+          <source src="img/Firefly_Kinder.mp4" type="video/mp4" />
+          Dein Browser unterstützt das Video-Tag nicht.
+        </video>
+        <div class="video-overlay"></div>
+      </div>
+
+      <div class="hero-text">
+        <p class="hero-description">Deine Kinder lieben ihr Schulfrühstück.</p>
+        <p class="hero-description">Und du startest entspannt in den Tag.</p>
+
+        <div class="hero-buttons">
+          <a href="#produkte" class="btn-primary">Frühstücksbox wählen</a>
+          <a href="#deine-box" class="btn-ghost">Box selbst zusammenstellen</a>
+        </div>
+      </div>
+    </div>
+
+    <main>
+      <!-- ÜBER UNS -->
+      <section id="ueber-uns">
+        <h2>Über uns</h2>
+        <div class="justify">
+          <p>
+            Wir sind ein engagiertes Team von Studierenden der Hochschule Darmstadt. Kreativ, motiviert und voller
+            Energie
+            verfolgen wir ein gemeinsames Ziel: Kindern ein gesundes und abwechslungsreiches Frühstück zu ermöglichen
+            und
+            Eltern im Alltag zu entlasten.</p>
+          </p>
+          <br>
+          <p>Dafür bereiten wir frische und ausgewogene Frühstücksboxen für Kinder zu – liebevoll gestaltet,
+            nährstoffreich und perfekt für den Alltag. Ihr habt die Wahl zwischen unseren fertigen Boxen oder könnt eure
+            individuelle Kinder-Frühstücksbox selbst zusammenstellen.</p>
+        </div>
+
+        <h2 class="title-ueber-uns">Warum Hello Frühstück?</h2>
+
+        <div class="benefit-list">
+          <div class="benefit">
+            <i class="fas fa-apple-alt"></i>
+            <strong>Ernährungsbewusst</strong>
+            <p>Vollkorn, Obst, Gemüse & wenig Zucker.</p>
+          </div>
+          <div class="benefit">
+            <i class="fas fa-smile-beam"></i>
+            <strong>Gesund & lecker</strong>
+            <p>Abgestimmt auf Kinderbedürfnisse.</p>
+          </div>
+          <div class="benefit">
+            <i class="fas fa-shopping-cart"></i>
+            <strong>Einfach bestellt</strong>
+            <p>Box wählen, Lieferdatum festlegen.</p>
+          </div>
+          <div class="benefit">
+            <i class="fas fa-handshake"></i>
+            <strong>Fair & flexibel</strong>
+            <p>Einzelbestellungen oder Abos.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- PRODUKTE -->
+      <section id="produkte">
+        <h2>Unsere Frühstücksboxen</h2>
+
+        <div class="boxes-grid">
+          <article class="box-card">
+            <!-- <span class="box-badge">Vegan</span> -->
+            <h3 class="box-name">Sunny Start Box</h3>
+            <div class="box-image-wrapper">
+              <img src="img/Sunny_Start_Box.png" alt="Sunny Start Box" class="box-image" loading="lazy" />
+              <span class="box-price-overlay">8,50 €</span>
+            </div>
+
+
+            <p class="box-desc">
+              Vollkornbrot-Sandwich, Apfelspalten, Trauben, Gurkensticks & ein Power-Keks.
+            </p>
+
+            <ul class="box-features">
+              <li style="color: #e06c2a;">ohne zugesetzten Zucker</li>
+              <li style="color:#4f8b37;">reich an Ballaststoffen</li>
+            </ul>
+          </article>
+
+          <article class="box-card">
+            <!-- <span class="box-badge">Extra bunt</span> -->
+            <h3 class="box-name">Rainbow Snack Box</h3>
+            <div class="box-image-wrapper">
+              <img src="img/Rainbow_Snack_Box.png" alt="Rainbow Snack Box" class="box-image" loading="lazy" />
+              <span class="box-price-overlay">8,50 €</span>
+            </div>
+            <p class="box-desc">
+              Obstspieße, Mini-Wrap, Blaubeeren & Käsewürfel-Mix frisch und lecker.
+            </p>
+
+            <ul class="box-features">
+              <li style="color: #e06c2a;">5 verschiedene Obstsorten</li>
+              <li style="color:#4f8b37;">perfekt für lange Vormittage</li>
+            </ul>
+          </article>
+
+          <article class="box-card">
+            <!-- <span class="box-badge">Ohne Nüsse</span> -->
+            <h3 class="box-name">School Hero Box</h3>
+            <div class="box-image-wrapper">
+              <img src="img/School_Hero_Box.png" alt="School Hero Box" class="box-image" loading="lazy" />
+              <span class="box-price-overlay">8,50 €</span>
+            </div>
+
+            <p class="box-desc">
+              Gemüsesticks mit Dip, Dinkelstangen, Banane & Blaubeeren –
+              nussfrei.
+            </p>
+
+            <ul class="box-features">
+              <li style="color: #e06c2a;">ideal für Schule</li>
+              <li style="color:#4f8b37;">nussfrei*</li>
+            </ul>
+          </article>
+
+          <article class="box-card">
+            <!-- <span class="box-badge">Ohne Nüsse</span> -->
+            <h3 class="box-name">Green Boost Box</h3>
+            <div class="box-image-wrapper">
+              <img src="img/Green_Boost_Box.png" alt="Green Boost Box" class="box-image" loading="lazy" />
+              <span class="box-price-overlay">8,50 €</span>
+            </div>
+
+            <p class="box-desc">
+              Möhrensticks, Paprikastreifen, Vollkornbrot-Sandwich & Joghurt-Quetschbeutel.
+            </p>
+
+            <ul class="box-features">
+              <li style="color: #e06c2a;">reich an Vitaminen</li>
+              <li style="color:#4f8b37;">ohne künstliche Zusätze</li>
+            </ul>
+          </article>
+
+          <article class="box-card">
+            <!-- <span class="box-badge">Ohne Nüsse</span> -->
+            <h3 class="box-name">Fruits Fun Box</h3>
+            <div class="box-image-wrapper">
+              <img src="img/Fruit_Fun_Box.png" alt="Fruits Fun Box" class="box-image" loading="lazy" />
+              <span class="box-price-overlay">8,50 €</span>
+            </div>
+
+            <p class="box-desc">
+              Apfelspalten, Trauben, Banane & kleines Vollkorn-Müsliriegel frisch, bunt und lecker.
+            </p>
+
+            <ul class="box-features">
+              <li style="color: #e06c2a;">natürliche Süße</li>
+              <li style="color:#4f8b37;">ballaststoffreich</li>
+            </ul>
+          </article>
+
+          <article class="box-card">
+            <!-- <span class="box-badge">Ohne Nüsse</span> -->
+            <h3 class="box-name">Power Snack Box</h3>
+            <div class="box-image-wrapper">
+              <img src="img/Power_Snack_Box.png" alt="Power Snack Box" class="box-image" loading="lazy" />
+              <span class="box-price-overlay">8,50 €</span>
+            </div>
+
+            <p class="box-desc">
+              Vollkornbrötchen, Käsewürfel, Gurkensticks & kleiner Nussriegel.
+            </p>
+
+            <ul class="box-features">
+              <li style="color: #e06c2a;">Energie für die Schule</li>
+              <li style="color:#4f8b37;">hochwertige Proteine</li>
+            </ul>
+          </article>
+
+          <article class="box-card">
+            <!-- <span class="box-badge">Ohne Nüsse</span> -->
+            <h3 class="box-name">Happy Crunch Box</h3>
+            <div class="box-image-wrapper">
+              <img src="img/Happy_Crunch_Box.png" alt="Happy Crunch Box" class="box-image" loading="lazy" />
+              <span class="box-price-overlay">8,50 €</span>
+            </div>
+
+            <p class="box-desc">
+              Gemüsesticks (Karotte, Paprika), Hummus-Dip & Vollkorn-Cracker.
+            </p>
+
+            <ul class="box-features">
+              <li style="color: #e06c2a;">knackig & lecker</li>
+              <li style="color:#4f8b37;">ohne zugesetzten Zucker</li>
+            </ul>
+          </article>
+
+          <article class="box-card">
+            <!-- <span class="box-badge">Ohne Nüsse</span> -->
+            <h3 class="box-name">Brainy Bite Box</h3>
+            <div class="box-image-wrapper">
+              <img src="img/Brainy_Bite_Box.png" alt="Brainy Bite Box" class="box-image" loading="lazy" />
+              <span class="box-price-overlay">8,50 €</span>
+            </div>
+
+            <p class="box-desc">
+              Vollkornbrot, Hüttenkäse, Apfelspalten & kleiner Power-Keks.
+            </p>
+
+            <ul class="box-features">
+              <li style="color: #e06c2a;">für konzentriertes Lernen</li>
+              <li style="color:#4f8b37;">reich an Ballaststoffen</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <!-- DEINE INDIVIDUELLE BOX -->
+      <section id="deine-box">
+        <div class="justify">
+          <h2>Stell dir deine Frühstücksbox selbst zusammen</h2>
+          <p>
+            Jedes Kind ist anders – und so darf auch das Frühstück aussehen. In
+            unserer individuellen Kinder-Frühstücksbox könnt ihr selbst
+            auswählen, was hineinkommt. So wird die Box so bunt, gesund und
+            lecker, wie ihr sie braucht.
+          </p>
+
+
+          <h3 style="margin-top: 1.2rem">So einfach stellen Sie Ihre persönliche „Deine Box“ zusammen</h3>
+          
+        </div>
+
+        <div class="product-grid">
+          <article class="product-card">
+            <span>🥕 Schritt 1 : Obst & Gemüse</span>
+            <p> Wählen Sie Ihr Lieblingsgemüse oder frische Früchte – knackig, saftig und voller Geschmack. Damit
+              starten
+              Sie gesund und ausgewogen in den Tag.</p>
+          </article>
+
+          <article class="product-card">
+            <span>🍞 Schritt 2 : & Gebäck</span>
+            <p>Entscheiden Sie sich für Ihr Lieblingsbrot oder eine frische Backware. Ob knusprig, weich oder herzhaft –
+              hier beginnt der perfekte Genussmoment.</p>
+          </article>
+
+          <article class="product-card">
+            <span>🥪 Schritt 3 : Brotbelag & Aufstrich</span>
+            <p>Wählen Sie Ihre leckere Beläge oder Aufstriche, um Ihre Brotauswahl abzurunden. Herzhaft, cremig
+              oder frisch – ganz nach Ihrem Geschmack.</p>
+          </article>
+
+          <article class="product-card">
+            <span>🍪 Schritt 4 : Snacks & Extras</span>
+            <p>Fügen Sie Ihre Lieblingssnacks hinzu – ideal für zwischendurch. Energiekicks, kleine Leckereien oder
+              Joghurtgourdes – alles, was Freude macht.</p>
+          </article>
+        </div>
+
+        <div class="product-pack">
+          <h2>🎁 Unser Special-Pack für 8,50 €</h2>
+          <p>Mit diesem Pack erhalten Sie <strong>ein Produkt aus jeder der vier Gruppen</strong>. Perfekt ausgewogen
+            und
+            praktisch zusammengestellt.</p>
+          <p>Wählen Sie mehr als 4 Produkte? Kein Problem – ein kleiner Aufpreis wird automatisch für jedes zusätzliche
+            Produkt berechnet.</p>
+        </div>
+
+        <h3 style="margin-top: 1.2rem">Kategorien für eure Box</h3>
+
+        <div class="builder-grid">
+
+          <!-- Schritt 1 -->
+          <div class="category-card">
+            <h3>🥕 ROHKOST
+              <span class="toggle-arrow"><i class="fas fa-chevron-down"></i></span>
+            </h3>
+
+            <div class="subcat-card">
+              <button class="subcat-btn active" data-subcat="gemüse">Gemüse</button>
+              <button class="subcat-btn" data-subcat="obst">Obst</button>
+              <button class="subcat-btn" data-subcat="beeren">Beeren</button>
+            </div>
+
+            <!-- Gemüse -->
+            <div class="items gemüse">
+              <button class="item" data-category="gemüse"
+                data-desc="Knackige Karottensticks – süß, frisch und ideal zum Knabbern." data-price="1.70"
+                data-image="img/Karottensticks.png">Karottensticks</button>
+
+              <button class="item" data-category="gemüse"
+                data-desc="Saftige Kirschtomaten – mild im Geschmack und voller Frische." data-price="1.60"
+                data-image="img/Kirschtomaten.png">Kirschtomaten</button>
+
+              <button class="item" data-category="gemüse"
+                data-desc="Bunte Paprikastreifen – knackig, süßlich und vitaminreich." data-price="1.90"
+                data-image="img/Paprika.png">Paprika</button>
+
+              <button class="item" data-category="gemüse"
+                data-desc="Frischer Brokkoli – gesund, nährstoffreich und leicht zu essen." data-price="1.80"
+                data-image="img/Brokkoli.png">Brokkoli</button>
+            </div>
+
+            <!-- Obst -->
+            <div class="items obst" style="display:none;">
+              <button class="item" data-category="obst"
+                data-desc="Knackiger Apfel – süß-säuerlich, frisch und voller Vitamine." data-price="1.50"
+                data-image="img/Apfel.png">Apfel</button>
+
+              <button class="item" data-category="obst"
+                data-desc="Reife Banane – weich, süß und perfekt für schnelle Energie." data-price="1.60"
+                data-image="img/Banane.png">Banane</button>
+
+              <button class="item" data-category="obst"
+                data-desc="Saftige Mandarinen – leicht zu schälen und angenehm süß." data-price="1.80"
+                data-image="img/Mandarinen.png">Mandarinen</button>
+
+              <button class="item" data-category="obst"
+                data-desc="Zarte Birnen – mild, saftig und besonders aromatisch." data-price="1.70"
+                data-image="img/Birnen.png">Birnen</button>
+            </div>
+
+            <!-- Beeren -->
+            <div class="items beeren" style="display:none;">
+              <button class="item" data-category="beeren"
+                data-desc="Süße Erdbeeren – frisch, fruchtig und unwiderstehlich lecker." data-price="2.10"
+                data-image="img/Erdbeeren.png">Erdbeeren</button>
+
+              <button class="item" data-category="beeren"
+                data-desc="Saftige Blaubeeren – klein, süß und reich an Antioxidantien." data-price="2.20"
+                data-image="img/Banane.png">Blaubeeren</button>
+
+              <button class="item" data-category="beeren"
+                data-desc="Aromatische Himbeeren – fruchtig, leicht säuerlich und frisch." data-price="2.30"
+                data-image="img/Mandarinen.png">Himbeeren</button>
+
+              <button class="item" data-category="beeren"
+                data-desc="Frische Johannisbeeren – intensiv im Geschmack und vitaminreich." data-price="2.00"
+                data-image="img/Johannisbeeren.png">Johannisbeeren</button>
+            </div>
+          </div>
+
+          <!-- Schritt 2 -->
+          <div class="category-card">
+            <h3>🍞 BROT & GEBÄCK
+              <span class="toggle-arrow"><i class="fas fa-chevron-down"></i></span>
+            </h3>
+
+            <div class="subcat-card">
+              <button class="subcat-btn active" data-subcat="brot">Brot</button>
+              <button class="subcat-btn" data-subcat="gebäck">Gebäck</button>
+            </div>
+
+            <!-- Brot -->
+            <div class="items brot">
+              <button class="item" data-category="brot"
+                data-desc="Herzhaftes Vollkornbrot – sättigend und reich an Ballaststoffen." data-price="2.20"
+                data-image="img/Volkornbrot.png">Vollkornbrot</button>
+
+              <button class="item" data-category="brot"
+                data-desc="Kräftiges Roggenbrot – aromatisch und angenehm rustikal." data-price="2.10"
+                data-image="img/Roggenbrot.png">Roggenbrot</button>
+
+              <button class="item" data-category="brot"
+                data-desc="Mildes Dinkelbrot – weich, bekömmlich und fein im Geschmack." data-price="2.00"
+                data-image="img/Dinkelbrot.png">Dinkelbrot</button>
+
+              <button class="item" data-category="brot"
+                data-desc="Weiches Toastbrot – perfekt für süße oder herzhafte Beläge." data-price="1.80"
+                data-image="img/Toastbrot.png">Toastbrot</button>
+            </div>
+
+            <!-- Gebäck -->
+            <div class="items gebäck" style="display:none;">
+              <button class="item" data-category="gebäck"
+                data-desc="Frische Brötchen – außen knusprig, innen weich und luftig." data-price="1.70"
+                data-image="img/Brötchen.png">Brötchen</button>
+
+              <button class="item" data-category="gebäck"
+                data-desc="Herzhaftes Laugenbrötchen – leicht salzig und besonders lecker." data-price="1.90"
+                data-image="img/Laugenbrötchen.png">Laugenbrötchen</button>
+
+              <button class="item" data-category="gebäck"
+                data-desc="Buttriges Croissant – zart, fluffig und herrlich knusprig." data-price="2.00"
+                data-image="img/Croissant.png">Croissant</button>
+
+              <button class="item" data-category="gebäck"
+                data-desc="Klassische Brezel – goldbraun, knusprig und mild gesalzen." data-price="1.80"
+                data-image="img/Brezel.png">Brezel</button>
+            </div>
+          </div>
+
+          <!-- Schritt 3 -->
+          <div class="category-card">
+            <h3>🥪 BROTBELAG / AUFSTRICH
+              <span class="toggle-arrow"><i class="fas fa-chevron-down"></i></span>
+            </h3>
+
+            <div class="subcat-card">
+              <button class="subcat-btn" data-subcat="wurst">Wurst</button>
+              <button class="subcat-btn active" data-subcat="aufstrich">Aufstrich</button>
+              <button class="subcat-btn" data-subcat="süße">Süße</button>
+            </div>
+
+            <!-- Wurst -->
+            <div class="items wurst">
+              <button class="item" data-category="wurst"
+                data-desc="Zarte Putenbrust – mild, proteinreich und kindgerecht." data-price="2.20"
+                data-image="img/Putenbrust.png">Putenbrust</button>
+
+              <button class="item" data-category="wurst"
+                data-desc="Cremige Leberwurst – streichzart und herzhaft im Geschmack." data-price="2.10"
+                data-image="img/Leberwurst.png">Leberwurst</button>
+
+              <button class="item" data-category="wurst"
+                data-desc="Saftiger Schinken – mild geräuchert und angenehm würzig." data-price="2.00"
+                data-image="img/Schinken.png">Schinken</button>
+
+              <button class="item" data-category="wurst"
+                data-desc="Feiner Hähnchenaufschnitt – leicht, zart und gut bekömmlich." data-price="1.80"
+                data-image="img/Hähnchenaufschnitt.jpeg">Hähnchenaufschnitt</button>
+            </div>
+
+            <!-- Aufstrich -->
+            <div class="items aufstrich" style="display:none;">
+              <button class="item" data-category="aufstrich"
+                data-desc="Cremiger Käse – mild, lecker und ideal fürs Brot." data-price="1.90"
+                data-image="img/Käse.png">Käse</button>
+
+              <button class="item" data-category="aufstrich"
+                data-desc="GekochtesEi – sättigend, proteinreich und mild im Geschmack." data-price="1.70"
+                data-image="img/Gekochtes_Ei.png">Gekochtes Ei</button>
+
+              <button class="item" data-category="aufstrich"
+                data-desc="Frischer Kräuteraufstrich – cremig, würzig und aromatisch." data-price="1.80"
+                data-image="img/Kräuteraufstrich.png">Kräuteraufstrich</button>
+
+              <button class="item" data-category="aufstrich"
+                data-desc="Klassische Butter – zartschmelzend und fein im Geschmack." data-price="1.50"
+                data-image="img/Butter.png">Butter</button>
+            </div>
+
+            <!-- Süße -->
+            <div class="items süße" style="display:none;">
+              <button class="item" data-category="süße"
+                data-desc="Fruchtige Marmelade – süß, streichzart und voller Aroma." data-price="1.60"
+                data-image="img/Marmelade.png">Marmelade</button>
+
+              <button class="item" data-category="süße"
+                data-desc="Cremige Erdnussbutter – nussig, süßlich und energiereich." data-price="1.90"
+                data-image="img/Erdnussbutter.png">Erdnussbutter</button>
+
+              <button class="item" data-category="süße"
+                data-desc="Natürlicher Honig – mild süß und angenehm aromatisch." data-price="1.80"
+                data-image="img/Honig.jpeg">Honig</button>
+
+              <button class="item" data-category="süße"
+                data-desc="Cremiger Avocadoaufstrich – mild, frisch und modern im Geschmack." data-price="2.00"
+                data-image="img/Avocadoaufstrich.png">Avocadoaufstrich</button>
+            </div>
+          </div>
+
+          <!-- Schritt 4 -->
+          <div class="category-card">
+            <h3>🥛 JOGHURT & SNACKS
+              <span class="toggle-arrow"><i class="fas fa-chevron-down"></i></span>
+            </h3>
+
+            <div class="subcat-card">
+              <button class="subcat-btn" data-subcat="joghurt">Joghurt</button>
+              <button class="subcat-btn active" data-subcat="quetschbeutel">Quetschbeutel</button>
+              <button class="subcat-btn" data-subcat="snacks">Snacks</button>
+            </div>
+
+            <!-- Joghurt -->
+            <div class="items joghurt">
+              <button class="item" data-category="joghurt"
+                data-desc="Milder Naturjoghurt – cremig, frisch und vielseitig kombinierbar." data-price="2.20"
+                data-image="img/Naturjoghurt.png">Naturjoghurt</button>
+
+              <button class="item" data-category="joghurt"
+                data-desc="Fruchtiger Joghurt – süß, cremig und besonders kinderfreundlich." data-price="2.40"
+                data-image="img/Fruchtjoghurt.png">Fruchtjoghurt</button>
+
+              <button class="item" data-category="joghurt"
+                data-desc="Griechischer Joghurt – extra cremig, reichhaltig und sättigend." data-price="2.50"
+                data-image="img/Griechischer_joghurt.png">Griechischer Joghurt</button>
+            </div>
+
+            <!-- Quetschbeutel -->
+            <div class="items quetschbeutel" style="display:none;">
+              <button class="item" data-category="quetschbeutel"
+                data-desc="Fruchtiges Püree im Quetschbeutel – praktisch und lecker für unterwegs." data-price="2.10"
+                data-image="img/Fruchtpüree.png">Fruchtpüree</button>
+
+              <button class="item" data-category="quetschbeutel"
+                data-desc="Beerenpüree – intensiv fruchtig, süß und voll natürlicher Aromen." data-price="2.20"
+                data-image="img/Beerenpüree.png">Beerenpüree</button>
+
+              <button class="item" data-category="quetschbeutel"
+                data-desc="Mildes Gemüsepüree – gesund, sanft im Geschmack und nährstoffreich." data-price="2.00"
+                data-image="img/Gemüsepüree.png">Gemüsepüree</button>
+
+              <button class="item" data-category="quetschbeutel"
+                data-desc="Trinkfertiger Smoothie – fruchtig, erfrischend und voller Energie." data-price="2.30"
+                data-image="img/Smoothie.png">Smoothie</button>
+            </div>
+
+            <!-- Snacks -->
+            <div class="items snacks" style="display:none;">
+              <button class="item" data-category="snacks"
+                data-desc="Knuspriger Müsliriegel – sättigend und ideal für kleine Pausen." data-price="1.90"
+                data-image="img/Müsliriegel.png">Müsliriegel</button>
+
+              <button class="item" data-category="snacks"
+                data-desc="Luftiges Popcorn – leicht, knusprig und spaßig zu essen." data-price="1.80"
+                data-image="img/Popcorn.png">Popcorn</button>
+
+              <button class="item" data-category="snacks"
+                data-desc="Knusprige Reiswaffeln – leicht, mild und gut bekömmlich." data-price="1.70"
+                data-image="img/Reiswaffeln.png">Reiswaffeln</button>
+
+              <button class="item" data-category="snacks"
+                data-desc="Nussiger Riegel – knackig, energiereich und sättigend." data-price="2.00"
+                data-image="img/Nuss_Riegel.png">Nuss-Riegel</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="builder-output">
+          <!-- BOX-ZUSAMMENFASSUNG -->
+          <div class="box-summary">
+            <div class="summary-header">
+              <h3>🧺 Deine Box</h3>
+              <p class="total">
+                <strong id="total-price">0,00 €</strong>
+              </p>
+            </div>
+
+            <ul id="summary-list"></ul>
+
+            <div class="actions">
+              <button id="order-btn" disabled>Bestellen</button>
+              <button id="reset-btn">Zurücksetzen</button>
+            </div>
+            <p id="order-message" class="order-message"></p>
+          </div>
+
+          <!-- PRODUKT-INFOS -->
+          <div class="hover-info" id="hover-info">
+            <div class="hover-bg">
+              <span id="hover-close" class="hover-close"></span>
+              <div class="hover-text">
+                <h4 id="hover-title">✨ Produktinfo</h4>
+                <p id="hover-desc">Fahre mit der Maus über ein Produkt</p>
+                <span id="hover-price"></span>
+              </div>
+              <img id="hover-image" src="" alt="" class="hover-image" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- KONZEPT -->
+      <section id="konzept">
+        <h2>Wie funktioniert Hello Frühstück?</h2>
+        <p class="lead">
+          Ihr möchtet ein ausgewogenes und kreatives Schulfrühstück, das ihr
+          nur noch in den Schulranzen packen müsst?
+        </p>
+
+        <div class="benefit-list">
+          <div class="benefit">
+            <strong>Hello Frühstück passt zu eurem Stundenplan</strong><br />
+            Wählt täglich neu, an welchen Tagen ihr unsere Boxen mitnehmen
+            möchtet.
+          </div>
+          <div class="benefit">
+            <strong>Hello Frühstück ist für alle Kinder</strong><br />
+            Wählt einfach die Anzahl der Boxen – wir kümmern uns um den Rest.
+          </div>
+          <div class="benefit">
+            <strong>Hello Frühstück weiß, was Kindern schmeckt</strong><br />
+            Entscheidet euch für eines unserer Angebote oder stellt eure
+            individuelle Box zusammen.
+          </div>
+          <div class="benefit">
+            <strong>Ihr könnt länger schlafen</strong><br />
+            Wir beliefern euch immer am am Morgen früh, so fällt der Stress am
+            Morgen weg.
+          </div>
+        </div>
+      </section>
+
+      <div class="contact-layout">
+        <!-- FAQ -->
+        <section id="faq">
+          <h2>Häufige Fragen</h2>
+
+          <div class="faq-item">
+            <p class="faq-q">Wie läuft die Bestellung ab?</p>
+            <p class="faq-a">
+              Ihr wählt online eure Wunschtage, die Anzahl der Boxen und gebt
+              Besonderheiten wie Allergien an. Anschließend bestätigt ihr die
+              Bestellung – wir kümmern uns um den Rest.
+            </p>
+          </div>
+
+          <div class="faq-item">
+            <p class="faq-q">Wann werden die Boxen geliefert?</p>
+            <p class="faq-a">
+              Ob früh am Morgen oder im Laufe des Tages: Wir liefern genau dann, wenn ihr es braucht. Flexibel, zuverlässig und stressfrei.
+            </p>
+          </div>
+
+          <div class="faq-item">
+            <p class="faq-q">Muss ich ein Abo abschließen?</p>
+            <p class="faq-a">
+              Nicht unbedingt. Ihr entscheidet selbst, an welchen Tagen ihr
+              Boxen bekommt – einzelne Tage oder wiederkehrende Bestellungen,
+              ganz flexibel.
+            </p>
+          </div>
+
+          <div class="faq-item">
+            <p class="faq-q">
+              Berücksichtigt ihr Allergien und Unverträglichkeiten?
+            </p>
+            <p class="faq-a">
+              Ja. Ihr könnt Allergien (z. B. Nüsse, Laktose, Gluten) angeben.
+              Wir passen die Zutaten entsprechend an und kennzeichnen alles
+              klar.
+            </p>
+          </div>
+
+          <div class="faq-item">
+            <p class="faq-q">Gibt es vegetarische oder vegane Boxen?</p>
+            <p class="faq-a">
+              Viele Boxen sind vegetarisch. Vegane Anpassungen sind ebenfalls
+              möglich und können beim Bestellen ausgewählt werden.
+            </p>
+          </div>
+
+          <div class="faq-item">
+            <p class="faq-q">Für welches Alter sind die Boxen geeignet?</p>
+            <p class="faq-a">
+              Unsere Boxen sind ab etwa 6 Jahren geeignet und werden für
+              ältere Kinder entsprechend angepasst.
+            </p>
+          </div>
+        </section>
+
+        <!-- KONTAKT -->
+        <section id="kontakt" class="contact-section">
+          <h2>Kontakt</h2>
+          <p class="contact-intro">
+            Ihr möchtet bestellen, mit uns für eure Schule zusammenarbeiten
+            oder habt Fragen zu Hello Frühstück? Schreibt uns – wir melden uns
+            so schnell wie möglich.
+          </p>
+
+          <form class="contact-form">
+            <label>
+              <span>Name</span>
+              <input type="text" name="name" placeholder="Dein Name" />
+            </label>
+
+            <label>
+              <span>E-Mail</span>
+              <input type="email" name="email" placeholder="dein.name@example.com" />
+            </label>
+
+            <label>
+              <span>Nachricht</span>
+              <textarea name="message" rows="5" placeholder="Wobei dürfen wir dir helfen?"></textarea>
+            </label>
+
+            <button type="submit" class="btn-contact">
+              Nachricht senden
+            </button>
+          </form>
+        </section>
+      </div>
+    </main>
+
+    <button id="scrollToTopBtn" aria-label="Scroll to top">
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M6 12l6-6 6 6" />
+      </svg>
+      <img src="img/HelloF_Logo_V3.png" alt="Hello Frühstück Logo" />
+    </button>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="footer-links">
+        <a href="#">Impressum</a> · <a href="#">Datenschutz</a>
+      </div>
+      <div>© <span id="year"></span> Hello Frühstück</div>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
